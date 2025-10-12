@@ -26,7 +26,7 @@
                 "dynamodb:PutItem",
                 "dynamodb:UpdateItem"
             ],
-            "Resource": "arn:aws:dynamodb:us-east-1:140324736937:table/"
+            "Resource": "arn:aws:dynamodb:us-east-1:140324736937:table/ImageMetadata"
         }
     ]
 }
