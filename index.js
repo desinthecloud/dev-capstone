@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  fetch('https://vdqn2vvljtdk5olsavszc7s7jq0smvoh.lambda-url.us-east-1.on.aws') //Fetch LAMBDA FUNCTION URL - make sure to not add a trailing slash
+  fetch('https://tgwbjofwhmbvz64e5kvw6lmi7q0zfmps.lambda-url.us-east-1.on.aws') //Fetch LAMBDA FUNCTION URL - make sure to not add a trailing slash
     .then(response => response.json())
     .then(data => {
       const gallery = document.getElementById('image-gallery');
