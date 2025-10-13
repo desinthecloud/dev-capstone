@@ -27,7 +27,7 @@
         "dynamodb:GetItem",
         "dynamodb:Query"
       ],
-      "Resource": "arn:aws:dynamodb:::table/"
+      "Resource": "arn:aws:dynamodb:::table/ImageMetadata"
     }
   ]
 }
