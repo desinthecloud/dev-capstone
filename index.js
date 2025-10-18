@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function generateAiDescription(imageId) {
-    const aiDescriptionEndpoint = 'https://sspzyjc4ojvsy2ztx72he4ylkm0armjt.lambda-url.us-east-1.on.aws'; // GENERATE AI LAMBDA FUNCTION URL - and 
+    const aiDescriptionEndpoint = 'https://hroqfoomivxgdmsi63cy2zhh2e0zelkr.lambda-url.us-east-1.on.aws'; // GENERATE AI LAMBDA FUNCTION URL - and 
     fetch(aiDescriptionEndpoint, {
       method: 'POST',
       headers: {
