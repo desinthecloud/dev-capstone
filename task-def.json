@@ -1,6 +1,6 @@
 {
-  "family": "my-ai-app:*",
-  "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/YourEcsTaskExecutionRole",
+  "family": "my-ai-app",
+  "executionRoleArn": "arn:aws:iam::140324736937:role/YourEcsTaskExecutionRole",
   "networkMode": "awsvpc",
   "requiresCompatibilities": [
     "FARGATE"
@@ -10,7 +10,7 @@
   "containerDefinitions": [
     {
       "name": "web",
-      "image": "ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/my-ai-app:latest",
+      "image": "140324736937.dkr.ecr.us-east-1.amazonaws.com/my-ai-app:latest",
       "portMappings": [
         {
           "containerPort": 80,
